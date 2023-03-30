@@ -1,2 +1,2 @@
 # eppo
-A small uncompleted personal project!
+A small unfinished personal project!
