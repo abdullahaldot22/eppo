@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/venobox.min.css">
+    <link rel="stylesheet" href="./css/sal.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./less/style.css">
+    <title>eppo</title>
+</head>
+
+<body>
+    <div id="load">
+        <div class="page">
+            <div class="group">
+                <div class="o"></div>
+                <div class="i"></div>
+                <div class="ii"></div>
+                <div class="iii"></div>
+                <div class="iv"></div>
+                <div class="v"></div>
+                <div class="vi"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="block"></div>
+
+    <div id="top">
+        <div class="container">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+
+
+    <section id="nbar">
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#home"><img src="./img/eppo-lt.png" alt="logo"></a>
+                    <span>
+                        <button class="adjust"><i class="fas fa-adjust"></i></button>
+                        <button class="navbar-toggler" title="Menu" type="button" onclick="openfunction()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </span>
+                </div>
+            </nav>
+        </header>
+        <nav>
+            <div class="side-nav">
+                <div class="offcanvas">
+                    <div class="offcanvas-header">
+                        <!-- <h5 class="offcanvas-title"><img src="./img/eppo-lt.png" alt=""></h5> -->
+                        <button type="button" class="button-close text-reset" onclick="closefunction()"><i
+                  class="fas fa-times"></i></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">Pages</a>
+
+                                    <ul class="dropdown-mnu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li class=""><i class="fas fa-chevron-right"></i><a class="dropdown-item" href="#">Action</a></li>
+                                        <li class=""><i class="fas fa-chevron-right"></i><a class="dropdown-item" href="./pages/search.html">Search result</a></li>
+                                        <li class=""><i class="fas fa-chevron-right"></i><a class="dropdown-item" href="./pages/error.html">404 : not found</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="home">
+        <main>
+            <div class="bg-slider">
+                <div class="slider-i">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 data-sal="slide-left" data-sal-delay="700"><span>creative</span> design</h2>
+                                <p data-sal="slide-left" data-sal-delay="850">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at quos laborum consequuntur, sit debitis placeat! Recusandae quis mollitia rerum sequi veritatis officia dolore et.</p>
+                                <div class="button" data-sal="slide-left" data-sal-delay="900">
+                                    <a href="#0">Buy Now</a>
+                                    <a href="#0">Contact US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-ii">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2 data-sal="slide-down" data-sal-delay="300">minimal <span>classic design</span></h2>
+                                <p data-sal="slide-up" data-sal-delay="350">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at quos laborum consequuntur, sit debitis placeat! Recusandae quis mollitia rerum sequi veritatis officia dolore et.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-iii">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2 data-sal="slide-left" data-sal-delay="400">easily<span> customizable & seo</span> friendly <span>structur</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <section id="sub">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 column">
+                    <div class="cont">
+                        <div class="pi">
+                            <img src="./img/analysis.png" alt="">
+                        </div>
+                        <div class="pii">
+                            <h5>innovative business</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 column">
+                    <div class="cont">
+                        <div class="pi">
+                            <img src="./img/marketing.png" alt="">
+                        </div>
+                        <div class="pii">
+                            <h5>expartly marketing</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 column">
+                    <div class="cont">
+                        <div class="pi">
+                            <img src="./img/stream.png" alt="">
+                        </div>
+                        <div class="pii">
+                            <h5>enlarge audience</h5>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 part-i">
+                    <div class="row">
+                        <div class="one">
+                            <span class="count">275</span><span class="plus"><sup>+</sup></span>
+                        </div>
+                        <h5>worldwide branches</h5>
+                        <p>Lorem ipsum dolor, adipisicing elit. Eos aliquid accusamus harum.</p>
+                    </div>
+                    <div class="row">
+                        <div class="one">
+                            <span class="count">585</span><span class="plus"><sup>+</sup></span>
+                        </div>
+                        <h5>highly skilled employee</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit laboriosam!</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="back">
+                        <span class="ex-count">14</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 part-iii">
+                    <h5>Years of Experience</h5>
+                    <h6>with our skilled designers</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis ducimus quas officia dolore et aliquam rerum id? Ea eius magnam perspiciatis atque voluptas et cum laborum, quis excepturi? Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ipsam reiciendis ab, assumenda enim tempora vel officiis quibusdam ea commodi deleniti error natus aspernatur, unde rem corporis, molestias consectetur dolores repudiandae. Maxime quod quo facere in!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doc">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h5 class="one">our target is to built friendly & relyable websites for it's users & panel</h5>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <h5>UI/UX Design</h5>
+                    <p>Books be dream plume shrieked door hauntedtell made. Lady songs my soul i the, this window nothing take.</p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Unique Design</h5>
+                    <p>Books be dream plume shrieked door hauntedtell made. Lady songs my soul i the, this window nothing take.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="one">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="column-i">
+                        <div class="details-i" data-sal="fade">
+                            <a class="venobox" href="https://youtu.be/dvAbtpCxbCE" data-vbtype="video">
+                                <i class="fas fa-play" data-sal="fade" data-sal-delay="350"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="column-ii" data-sal="slide-left" data-sal-delay="400">
+                        <h4>To improve ..</h4>
+
+                        <p>Lorem ipsum dolor, sit, impedit doloremque molestiae, quas.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur um eos accusamus harum, et sed reprehenderit iure non nihil reiciendis!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="head">Our <span>Features</span></h3>
+                </div>
+            </div>
+        </div>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- <h6 class="des">We have <span>user friendly</span> amusing and <span>also easily</span> customizable <br><span>features</span> to <span>offer</span></h6> -->
+                        <div class="content">
+                            <div class="row">
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/seo.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>SEO Friendly</h5>
+                                                <p>Essilio potendo quella e una mortali esso siamo e dallo, incominciare e cominciamento e discerniamo apparire piú. Dico e alla tal dalla da sí, io divina di pregator.</p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/contrast.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>Balenced Contrast</h5>
+                                                <p>Essilio potendo quella ere piú. Dico e alla tal dalla da sí, io divina di pregator.Curtain was art raven will that and velvet, that rave black.</p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/responsive.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>Responsive</h5>
+                                                <p>Der ja junge verwunderst der, manchmal zuletzt mit weißt dich es schaust und du dich, du stund' was und immer perlet.</p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/customize.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>Fully Customizable</h5>
+                                                <p>Essilio potendo quella e una egator.The was unbroken midnight at weak presently theeby e, head uncertain but but sinking no velvet before,.</p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/ui-ux.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>UI/UX Design</h5>
+                                                <p>Essilio potendo cerniamo apparire piú. Dico e alla talehin sonder die im. Sanken feuchten.</p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 part">
+                                    <div class="box">
+                                        <div class="one"><img src="./img/classic.png" alt=""></div>
+                                        <div class="effect">
+                                            <div class="two">
+                                                <h5>Classic Design</h5>
+                                                <p>Essilio potendo quellras término el la. Ligeros paren y, me resonancia de subía los aire en sus dolor. Ligeros al.
+                                                </p>
+                                            </div>
+                                            <div class="three">
+                                                <a href="#0">see more ..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="three">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="head">Our <span>services</span></h3>
+                </div>
+            </div>
+        </div>
+        <article>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Graphic Design</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit cupiditate at nobis consectetur distinctio nesciunt ea beatae expedita assumenda impedit voluptatem reiciendis labore ut repellendus optio, esse vitae. Quidem
+                                optio hic dignissimos, culpa amet earum?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Web Design</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam animi autem voluptatem sed porro, ipsam ipsum voluptatum facilis obcaecati, eaque eveniet expedita est, culpa fuga maxime neque delectus. Nulla porro quisquam
+                                omnis placeat. Vitae ut dolor accusantium illo facilis harum.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Web Development</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo voluptas voluptate numquam dolore suscipit id, aliquid doloremque dolorem, necessitatibus incidunt dolorum magnam, debitis quos.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Social Media Marketing</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem quos facilis, molestiae laudantium temporibus ab vero laborum, maiores veniam saepe recusandae eveniet necessitatibus laboriosam illum aut asperiores repellat
+                                beatae ea distinctio corrupti fugiat? Veniam doloribus eligendi labore? Suscipit?</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Branding</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis commodi quibusdam quod earum eligendi aut magni itaque assumenda rerum, perferendis eos, obcaecati distinctio aperiam illum recusandae, odio impedit.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content">
+                            <h5>Advertisement</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum modi beatae error quos ullam ipsa suscipit fuga iste, alias similique facilis. Magnam, unde nam ipsa eius neque quasi explicabo itaque?</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="dotadd">
+        <div class="lazyslide">
+            <div class="lazy p-i">
+                <video muted loop id="vid-i" alt="Your browser does not support HTML5 video.">
+                    <source src="./videos/vid-one.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="last lp-i">
+                                <span class="button" id="pbutton-i">
+                                    <i class="fas fa-play" id="play-i"></i>
+                                    <i class="fas fa-pause" id="pause-i"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lazy p-ii">
+                <video muted loop id="vid-ii" alt="Your browser does not support HTML5 video.">
+                    <source src="./videos/vid-two.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="last lp-ii">
+                                <span class="button" id="pbutton-ii">
+                                    <i class="fas fa-play" id="play-ii"></i>
+                                    <i class="fas fa-pause" id="pause-ii"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="lazy p-iii">
+                <video muted loop id="vid-iii" alt="Your browser does not support HTML5 video.">
+                    <source src="./videos/vid-three.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="article content">
+                                <div class="last">
+                                    <span class="button" id="pbutton-iii">
+                                        <i class="fas fa-play" id="play-iii"></i>
+                                        <i class="fas fa-pause" id="pause-iii"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="member">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="head">Our <span>teammets</span></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12">
+
+                    <div class="member">
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memi.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Luther Schowalter</h5>
+                                        <h6 class="jttl">Forward Tactics Technician</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">86%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Canada</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memix.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Alex Green</h5>
+                                        <h6 class="jttl">Internal Interactions Developer</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">65%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Kazakhstan</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memv.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Veronica Hoeger</h5>
+                                        <h6 class="jttl">Central Operations Representative</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">92%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Kenya</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memxi.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Franklin Koelpin</h5>
+                                        <h6 class="jttl">Dynamic Security Officer</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">54%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Turkmenistan</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memvii.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Ramona Howell</h5>
+                                        <h6 class="jttl">International Data Associate</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">88%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Tunisia</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memx.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Marguerite Paucek</h5>
+                                        <h6 class="jttl">Corporate Research Supervisor</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">68%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Cambodia</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xxl-4">
+                            <div class="mem">
+                                <div class="pi">
+                                    <img src="./img/memxii.jpg" alt="">
+                                    <div class="details">
+                                        <h5 class="name">Kristen Hackett</h5>
+                                        <h6 class="jttl">Lead Tactics Representative</h6>
+                                    </div>
+                                </div>
+                                <div class="pii">
+                                    <div class="about">
+                                        <div class="part i">
+                                            <div class="one">Job Success</div>
+                                            <div class="two">81%</div>
+                                        </div>
+                                        <div class="part ii">
+                                            <div class="one">Country</div>
+                                            <div class="two">Mali</div>
+                                        </div>
+                                        <div class="part iii">
+                                            <a class="one" href="#0"><img src="./img/facebook.png" alt=""></a>
+                                            <a class="two" href="#0"><img src="./img/instagram.png" alt=""></a>
+                                            <a class="three" href="#0"><img src="./img/twitter.png" alt=""></a>
+                                            <a class="four" href="#0"><img src="./img/telegram.png" alt=""></a>
+                                            <a class="five" href="#0"><img src="./img/reddit.png" alt=""></a>
+                                            <a class="six" href="#0"><img src="./img/linkedin.png" alt=""></a>
+                                            <a class="seven" href="#0"><img src="./img/google.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="test">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="person proi">
+
+                        <div class="sp">
+                            <div class="box pi">
+                                <!-- <div class="opacity">
+                                    <img class="quote" src="./img/quote.png" alt="">
+                                </div> -->
+                                <div class="cnt">
+                                    <p>Parencoj pro malbone terbordon kion kaj. La povos mi knabo ke neniu kun la fisxoj. Kaj ol certigxis kaj iom mi aux ili dio. Mi pripensi.</p>
+                                </div>
+                                <div class="pdoti">
+                                    <img src="./img/profilei.jpg" alt="profile">
+                                    <div class="pdotii">
+                                        <h4 title="Marketing Specialilst">Allen Watrston</h4>
+                                        <h5>Marketing Specialilst</h5>
+                                        <div class="rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sp">
+                            <div class="box pii">
+                                <div class="cnt">
+                                    <p>Esperienza per quella merito tal alcun piú, pregator di a prieghi coloro d'angoscia sí da come occulta. Verso. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                </div>
+                                <div class="pdoti">
+                                    <img src="./img/profileii.jpg" alt="profile">
+                                    <div class="pdotii">
+                                        <h4>John Walker</h4>
+                                        <h5>Sales Executive</h5>
+                                        <div class="rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sp">
+                            <div class="box piii">
+                                <div class="cnt">
+                                    <p>La min kiom sed dankon kaj ol, korpo tiunokte peni eble liajn kie el mejlon de. Mi kelke vi mi cxirkaux, alproksimigxis.</p>
+                                </div>
+                                <div class="pdoti">
+                                    <img src="./img/profileiii.jpg" alt="profile">
+                                    <div class="pdotii">
+                                        <h4>Ren Alterson</h4>
+                                        <h5>Finance Analysist</h5>
+                                        <div class="rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sp">
+                            <div class="box piv">
+                                <div class="cnt">
+                                    <p>Lames rutilements glaciers les vu des archipels écroulement ô, les fleuves clabaudeurs aux quille pontons aux lyres haleurs,.</p>
+                                </div>
+                                <div class="pdoti">
+                                    <img src="./img/profileiv.jpg" alt="profile">
+                                    <div class="pdotii">
+                                        <h4>Mark Jeason</h4>
+                                        <h5>Investment Specialist</h5>
+                                        <div class="rate">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <article>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="bl-slider">
+
+                            <div class="col-xxl-4">
+                                <div class="item it-i">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-i.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>37</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>67</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>On a Holiday</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Lorem ipsum dolor, sit consect...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-ii">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-ii.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>75</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>57</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>Bookmarksgrove right at the coast</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Knight Rider, a shadowy flight into the dangero...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iii">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-iii.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>39</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>37</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>A young loner on a crusade to champion</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>the cause of the innocent, the helpless in a world of criminals...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-iv.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>15</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>07</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>There’s a voice</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Voice that keeps on calling me. Down th...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-v.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>33</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>18</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>One for all and all</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Sharing everything with fun, that’s the wa...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-vi.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>35</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>22</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>Mutley, you snickering</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Howwww! Nab him, jab him, ta...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-vii.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>09</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>11</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>Sharing everything with fun</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>When courage is needed, you’re...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-viii.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>56</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>32</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>Those medals you wear on</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Barnaby The Bear’s my name, never c...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-ix.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>21</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>06</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>I will sing</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Down the road, that’s where I’l...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xxl-4">
+                                <div class="item it-iv">
+                                    <div class="part">
+                                        <div class="pic">
+                                            <img src="./img/blog-x.jpg" alt="">
+                                            <div class="react">
+                                                <div class="box">
+                                                    <div class="icon one">
+                                                        <a href="#0"><i class="far fa-heart"></i></a>
+                                                        <p>05</p>
+                                                    </div>
+                                                    <div class="icon two">
+                                                        <a href="#0"><i class="far fa-comment-alt"></i></a>
+                                                        <p>07</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cont">
+                                            <div class="pi">
+                                                <h5>80 days around the world</h5>
+                                            </div>
+                                            <div class="pii">
+                                                <p>Time — we’ll fight against the time, and we’ll fl...</p>
+                                                <a href="#0">see more..</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <section id="countdot">
+        <div class="back">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="cnt">
+                            <h5 class="count">1254</h5>
+                            <h6>organization</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cnt">
+                            <h5 class="count">1869</h5>
+                            <h6>clients</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cnt">
+                            <h5 class="count">241</h5>
+                            <h6>partners</h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="cnt">
+                            <h5 class="count">2568</h5>
+                            <h6>employees</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="cont">
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                                  We are
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">My a ah chamber bosoms at name or did youhere and, nevermore tufted a i or these doubtless. I and eyes more of his some forgotten above. Sought shall yore i the this i my, pondered my not fiend stepped tinkled, bird
+                                        marvelled i the nothing ghost. Tufted forgiveness before the on the is into.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                  We have
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Was he and holy not pomp from caught below misery, not third paphian childe ear, harold that shun other seraphs would, adversity satiety and whom made and sullen ungodly carnal into, apart once wight deemed he and womans
+                                        whilome. Ofttimes might of waste upon sight but he love, not would.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                  We intend to
+                                </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto dicta molestiae, ullam sequi fugiat tempora. Minima corrupti laudantium incidunt. Sunt repudiandae recusandae ab quas expedita temporibus earum commodi
+                                        ut fugit necessitatibus neque vitae itaque, asperiores veritatis quod deleniti laborum accusamus labore. Exercitationem blanditiis commodi laudantium iste neque quia culpa dolore asperiores, ea laborum sapiente
+                                        libero porro fugit numquam nostrum ex!</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                  Our
+                                </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Je zones plein les des et. Chantants soleil je en j'ai. Je regretter je bas les et et par les et, cataractant de des infusé en circulation, je comme vogueur des dans échouages des soleil, éveils jaunes sous fond - savez-vous
+                                        lune, mes dans.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="fig">
+                        <img src="./img/test.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="prtnr-slide">
+                        <img src="./img/prtnri.png" alt="">
+                        <img src="./img/prtnrii.png" alt="">
+                        <img src="./img/prtnriii.png" alt="">
+                        <img src="./img/prtnriv.png" alt="">
+                        <img src="./img/prtnrv.png" alt="">
+                        <img src="./img/prtnrvi.png" alt="">
+                        <img src="./img/prtnrvii.png" alt="">
+                        <img src="./img/prtnrviii.png" alt="">
+                        <img src="./img/prtnrix.png" alt="">
+                        <img src="./img/prtnrx.png" alt="">
+                        <img src="./img/prtnrxi.png" alt="">
+                        <img src="./img/prtnrxii.png" alt="">
+                        <img src="./img/prtnrxiii.png" alt="">
+                        <img src="./img/prtnrxiv.png" alt="">
+                        <img src="./img/prtnrxv.png" alt="">
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row one">
+                
+
+                    <div class="col-lg-3 pi">
+                        <div class="head">
+                            <img src="./img/eppo-lt-pii.png" alt="">
+                        </div>
+                        <div class="body">
+                            <p>I borrow word explore back hath. Ever from clasp air me or.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2 common">
+                        <div class="head">
+                            <h5>Link</h5>
+                        </div>
+                        <div class="body">
+                            <ul>
+                                <li><a href="#0">Home</a> </li>
+                                <li><a href="#0">Features</a> </li>
+                                <li><a href="#0">Privacy</a> </li>
+                                <li><a href="#0">Tarms & Conditions</a> </li>
+                                <li><a href="#0">Payment Methods</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 common">
+                        <div class="head">
+                            <h5>Contack US</h5>
+                        </div>
+                        <div class="body">
+                            <p>562 Oberbrunner Route, Rowanbury, Indiana.</p>
+                            <p>(427) 488-6776 x4866</p>
+                            <p>markflame@tubidu.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 form">
+                        <div class="fp">
+                            <input class="scan" type="email" placeholder="name@mail.com">
+                            <button class="sub" type="submit">Subscribe</button>
+                        </div>
+                        <div class="sp">
+                            <a href="#0"><img src="./img/cir-fb.png" alt=""></a>
+                            <a href="#0"><img src="./img/cir-insta.png" alt=""></a>
+                            <a href="#0"><img src="./img/cir-tw.png" alt=""></a>
+                            <a href="#0"><img src="./img/cir-pin.png" alt=""></a>
+                            <a href="#0"><img src="./img/cir-link.png" alt=""></a>
+                            <a href="#0"><img src="./img/cir-gp.png" alt=""></a>
+                        </div>
+                    </div>
+                
+            </div>
+            
+        </div>
+        <div class="copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pi">
+                        <p>All &copy; rights reserved by <a href="#0">eppo</a></p>
+                    </div>
+                    <div class="col-lg-6 pii">
+                        <p><a href="#0">Privacy</a></p> 
+                        <p><a href="#0">Terms & Conditions</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    
+
+
+
+    <script src="./js/bootstrap.bundle.min.js "></script>
+    <script src="./js/jquery-2.2.4.min.js "></script>
+    <script src="./js/slick.min.js "></script>
+    <script src="./js/venobox.min.js "></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./js/sal.js "></script>
+    <script src="./js/main.js "></script>
+</body>
+
+</html>
